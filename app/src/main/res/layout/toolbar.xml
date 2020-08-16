@@ -4,6 +4,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     app:titleTextColor="@color/colorTextPrimary"
     android:layout_alignParentTop="true"
+    app:layout_scrollFlags="scroll|enterAlways"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
     android:layout_width="match_parent"
+    app:title="App Title"
     android:layout_height="?attr/actionBarSize"
     android:background="@color/colorPrimary"/>

@@ -24,7 +24,6 @@ class LayoutAddRemoveAnim : AppCompatActivity() {
 
         add.setOnClickListener {
 
-
             val params = RelativeLayout.LayoutParams(
                 RelativeLayout.LayoutParams.MATCH_PARENT,
                 RelativeLayout.LayoutParams.WRAP_CONTENT
