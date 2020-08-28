@@ -16,8 +16,6 @@ class HideToolBar : AppCompatActivity() {
         setUpRecyclerView()
     }
 
-
-
     private fun setUpRecyclerView() {
         val recyclerView =
             findViewById<View>(R.id.my_recycler_view) as RecyclerView

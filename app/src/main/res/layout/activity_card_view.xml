@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".CardViewUI.CardView">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardElevation="2dp"
+        android:layout_height="50dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="16dp"
+                android:layout_centerInParent="true"
+                android:textColor=" #000000"
+                android:text="Sports"
+                android:layout_height="wrap_content"/>
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_marginRight="6dp"
+                android:layout_centerVertical="true"
+                android:tint="#000000"
+                android:src="@drawable/ic_baseline_search_24"
+                android:layout_alignParentRight="true"
+                android:layout_height="30dp"/>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_marginLeft="6dp"
+                android:layout_centerVertical="true"
+                android:tint="#000000"
+                android:src="@drawable/ic_baseline_keyboard_arrow_left_24"
+                android:layout_height="30dp"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF"
+        android:layout_marginEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="2dp"
+            android:layout_height="180dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/blue_wall"
+                    android:layout_height="match_parent"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="8dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textSize="16dp"
+                        android:textColor="#FFFFFF"
+                        android:text="Andy Murry says winning at Queen's with
+                        a metal hip is 'mental'"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textSize="12dp"
+                        android:textColor="#FFFFFF"
+                        android:text="2 Hours ago"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="2dp"
+                android:layout_weight="1"
+                android:layout_marginRight="8dp"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ball"
+                        android:layout_height="match_parent"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="8dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:textSize="16dp"
+                            android:textColor="#FFFFFF"
+                            android:text="Original EXPO '86 dragon festival"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:textSize="12dp"
+                            android:textColor="#FFFFFF"
+                            android:text="2 Hours ago"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:weightSum="2"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="2dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginRight="2dp"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/ball1"
+                            android:layout_height="match_parent"/>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:orientation="vertical"
+                            android:layout_marginBottom="8dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:textSize="16dp"
+                                android:textColor="#FFFFFF"
+                                android:text="Trump says US soccar star wrong them"
+                                android:layout_height="wrap_content"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:textSize="12dp"
+                                android:textColor="#FFFFFF"
+                                android:text="2 Hours ago"
+                                android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    app:cardCornerRadius="10dp"
+                    android:layout_marginTop="4dp"
+                    app:cardElevation="2dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginRight="2dp"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/ball3"
+                            android:layout_height="match_parent"/>
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:orientation="vertical"
+                            android:layout_marginBottom="8dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:textSize="16dp"
+                                android:textColor="#FFFFFF"
+                                android:text="Metchroom chief Eddi Hearn revels"
+                                android:layout_height="wrap_content"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:textSize="12dp"
+                                android:textColor="#FFFFFF"
+                                android:text="2 Hours ago"
+                                android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="20dp"
+            app:cardElevation="2dp"
+            android:layout_height="200dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ball4"
+                    android:layout_height="match_parent"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="8dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textSize="16dp"
+                        android:textColor="#FFFFFF"
+                        android:text="'Dancers live in a world of fear' : why
+cheerleaders are taking on the NFL and NBA"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textSize="12dp"
+                        android:textColor="#FFFFFF"
+                        android:text="2 Hours ago"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvList"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_height="140dp"/>
+
+    </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>
